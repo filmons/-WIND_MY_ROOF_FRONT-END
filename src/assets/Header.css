@@ -1,0 +1,41 @@
+.Header {
+	display: flex;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	height: 61px;
+	margin-bottom: 2%;
+}
+
+
+.headerTex {
+	padding-left: 10%;
+	color: blanchedalmond;
+	box-shadow: 2px black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-between;
+	background-color: #6ec1e4;
+}
+
+.navItem {
+	display: inline-block;
+	margin: 0 8px;
+	padding: 5px;
+}
+.navItem:hover .link {
+	color: rgb(250, 246, 246);
+}
+.link {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

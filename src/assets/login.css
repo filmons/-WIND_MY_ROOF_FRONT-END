@@ -1,0 +1,66 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 66px 50px;
+	height: 400px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+	background-color: #9bdffb;
+	border-radius: 10px;
+}
+.form label {
+	padding-right: 2%;
+	margin-bottom: 2%;
+}
+.data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.form input {
+	background-color: transparent;
+	border-radius: 10px;
+	height: 30px;
+	width: 300px;
+	padding-top: 5%;
+	border: 1px solid rgb(172, 168, 168);
+	transition: all 2s;
+}
+.form input:focus {
+	outline: solid rgb(231, 233, 226) 10px;
+}
+.buttonsSection {
+	display: flex;
+	flex-direction: column;
+	padding-top: 2%;
+}
+.buttonsSection button {
+	margin-top: 10%;
+	margin-left: 10%;
+	color: #d1d1c6;
+	border: 2px solid #979793;
+	background-color: rgb(43, 40, 40);
+	border-radius: 2em / 5em;
+	font-weight: bold;
+	width: 150px;
+	height: 50px;
+	max-height: 50px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	transition: ease-in 0.3s;
+	cursor: pointer;
+}
+.buttonsSection button:hover {
+	background-color: rgb(160, 156, 156);
+	color: white;
+	transform: translatey(-15%);
+	box-shadow: 5px 5px rgb(253, 251, 251);
+}

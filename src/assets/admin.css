@@ -1,0 +1,25 @@
+ .logout > a {
+    display: flex;
+    background-color:#b5c0c0;
+    color: rgb(14, 13, 13);
+    padding: 14px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 88px;
+    opacity: 0.9;
+    display: -ms-flexbox;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-content: space-between;
+    float: right;
+    position: relative;
+	bottom: 21%;
+  
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
