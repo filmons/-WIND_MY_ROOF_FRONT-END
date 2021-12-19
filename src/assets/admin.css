@@ -17,3 +17,9 @@
 	bottom: 21%;
   
 }
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}

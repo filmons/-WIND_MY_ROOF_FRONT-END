@@ -1,8 +1,8 @@
 # 🚀 Wind my roof
 
+<img src="./assets/image/wmr.png" alt="project logo"/>
 
 ### Table of Contents
-
 
 - [Description](#description)
 - [How To Use](#how-to-use)
@@ -13,7 +13,6 @@
 ## 📖 Description
 
 Wind my roof is a **full stack** project made with React it consist of signup and login with different roles like Admin and User
-
 
 #### 🔬 Technologies
 
@@ -28,28 +27,28 @@ Wind my roof is a **full stack** project made with React it consist of signup an
 
 #### ⚙️ Installation
 
-1.  Installation of Nodejs
+1.  Initialisation of a package.json
 
-            sudo apt install nodejs
+            yarn init
 
-2.  Initialisation of a package.json
+2.  Installation of modules
 
-            npm init
-
-3.  Installation of modules
             React:
             npx create-react-app my-app
             cd my-app
-            npm start
-          
-            npm install axios
-            npm install sass
-            npm install @stripe/react-stripe-js @stripe/stripe-js
+            yarn start
+
+            Other dependencies:
+            yarn install react-dom
+            yarn install react-router-dom
+            yarn install react-toastif
+            yarn install axios
+            yarn install cors
+            yarn install nodemon
 
 ## Contributors
 
--<spam>Filmon Saere</spam> [<img alt="githb link" width="30px" src="./img/Octocat.jpg"/>][github]
-
+-<spam>Filmon Saere</spam> [<img alt="githb link" width="30px" src="./assets/image/Octocat.jpg"/>][github]
 
 <br />
 <br />

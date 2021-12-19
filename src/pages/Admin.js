@@ -38,11 +38,11 @@ class Admin extends React.Component {
 					{this.state.data.map((result, i) => {
 						return (
 							<div className="item" key={i}>
-								<span>Bonjour voter Nome est </span>
+								<span>Bonjour votre nom est </span>
 								<h3> {result.first_name}</h3>
 								<h3>{result.nom}</h3>
 								<h3>{result.email}</h3>
-								<span>vous etes le</span>
+								<span>vous êtes le</span>
 								<h3>{result.role}</h3>
 							</div>
 						);
