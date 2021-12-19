@@ -11,7 +11,7 @@ class Admin extends React.Component {
 	}
 	getData = async () => {
 		const response = await axios.get("http://localhost:9000/api/user/9");
-		console.log(response);
+		console.log(response); //to see the user that i feache with the Id
 		this.setState({
 			data: response.data.result,
 		});
@@ -31,7 +31,7 @@ class Admin extends React.Component {
 								<h3> {result.first_name}</h3>
 								<h3>{result.nom}</h3>
 								<h3>{result.email}</h3>
-								<span>vous etes</span>
+								<span>vous etes le</span>
 								<h3>{result.role}</h3>
 							</div>
 						);

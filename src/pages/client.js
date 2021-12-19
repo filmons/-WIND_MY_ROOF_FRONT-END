@@ -7,12 +7,11 @@ class Client extends React.Component {
 
 		this.state = {
 			data: [],
-
 		};
 	}
 	getData = async () => {
 		const response = await axios.get("http://localhost:9000/api/user/2");
-        console.log(response);
+		console.log(response);
 		this.setState({
 			data: response.data.result,
 		});
@@ -20,7 +19,7 @@ class Client extends React.Component {
 	componentDidMount() {
 		this.getData();
 	}
-	
+
 	render() {
 		return (
 			<div className="container_class">
@@ -28,13 +27,12 @@ class Client extends React.Component {
 					{this.state.data.map((result, i) => {
 						return (
 							<div className="item" key={i}>
-                                <span>Bonjour voter Nome est </span>
+								<span>Bonjour voter Nome est </span>
 								<h3> {result.first_name}</h3>
 								<h3>{result.nom}</h3>
 								<h3>{result.email}</h3>
-                                <span>vous etes</span>
+								<span>vous etes</span>
 								<h3>{result.role}</h3>
-								
 							</div>
 						);
 					})}

@@ -24,7 +24,6 @@ class SignUp extends React.Component {
 		};
 	}
 
-
 	handleChange = (event) => {
 		this.setState({
 			[event.target.name]: event.target.value,
@@ -76,17 +75,12 @@ class SignUp extends React.Component {
 			})
 			.then((data) => {
 				//console.log(data)
-				toast.success(data.data.message,{position: toast.POSITION.TOP_CENTER})
-					this.props.history.push("/login");
-				})
-			
-				
-				// else {
-				// 	this.setState({
-				// 		errorLogin: true,
-				 //	});
-				// }
-			
+				toast.success(data.data.message, {
+					position: toast.POSITION.TOP_CENTER,
+				});
+				this.props.history.push("/login");
+			})
+
 			.catch((error) => toast.error(error.response.data.message));
 		console.log(options);
 		// this.props.history.push("/login");
@@ -101,12 +95,18 @@ class SignUp extends React.Component {
 							<h1>Enregistrer</h1>
 							<p className="data">
 								<label htmlFor="">Prénom </label>
-								<input 
-								style={
-									this.state.errorFirtName
-										? { border: "1px solid red" }
-										: { border: "" }
-								}name="prenom" type="text" placeholder="Enter first Name" id="first_name"  onChange={this.handleChange} />
+								<input
+									style={
+										this.state.errorFirtName
+											? { border: "1px solid red"}
+											: { border: "" }
+									}
+									name="prenom"
+									type="text"
+									placeholder="Enter first Name"
+									id="first_name"
+									onChange={this.handleChange}
+								/>
 							</p>
 							<p className="data">
 								<label htmlFor="">Nom </label>

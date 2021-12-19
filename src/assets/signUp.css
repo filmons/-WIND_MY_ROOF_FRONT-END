@@ -1,29 +1,29 @@
-.siginUpform .form{
-    margin-bottom:1%; 
-    height: 566px;
-    width: 24%;
+.siginUpform .form {
+	margin-bottom: 1%;
+	height: 566px;
+	width: 24%;
 }
-.siginUpform button{
-    margin-top: 10%;
-    margin-left: 10%;
-   color: #d1d1c6;
-   border: 2px solid #979793;
-   background-color: rgb(43, 40, 40);
-   border-radius: 2em / 5em;
-   font-weight: bold;
-  width: 150px;
-    height: 50px;
-    max-height: 50px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: ease-in 0.3s;
-    cursor: pointer;
+.siginUpform button {
+	margin-top: 10%;
+	margin-left: 10%;
+	color: #d1d1c6;
+	border: 2px solid #979793;
+	background-color: rgb(43, 40, 40);
+	border-radius: 2em / 5em;
+	font-weight: bold;
+	width: 150px;
+	height: 50px;
+	max-height: 50px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	transition: ease-in 0.3s;
+	cursor: pointer;
 }
-.siginUpform button:hover{
-    background-color: rgb(160, 156, 156);
-    color: white;
-    transform: translatey(-15%);
-    box-shadow: 5px 5px rgb(253, 251, 251);
+.siginUpform button:hover {
+	background-color: rgb(160, 156, 156);
+	color: white;
+	transform: translatey(-15%);
+	box-shadow: 5px 5px rgb(253, 251, 251);
 }
-.siginUpform select{
-    background-color: transparent;
+.siginUpform select {
+	background-color: transparent;
 }
