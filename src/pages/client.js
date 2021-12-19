@@ -19,10 +19,20 @@ class Client extends React.Component {
 	componentDidMount() {
 		this.getData();
 	}
+	deleteToken() {
+		localStorage.clear();
+		console.log("localstorage", this.localstorage);
+	}
 
 	render() {
 		return (
 			<div className="container_class">
+				<div className="logout">
+						
+						<a onClick={this.deleteToken} href="/">
+						Déconnexion
+						</a>
+					</div>
 				<div className="item-card">
 					{this.state.data.map((result, i) => {
 						return (

@@ -7,7 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 toast.configure();
 
 class SignUp extends React.Component {
-	constructor(props) {
+	constructor(props){
 		super(props);
 		this.state = {
 			prenom: "",
@@ -99,7 +99,7 @@ class SignUp extends React.Component {
 									style={
 										this.state.errorFirtName
 											? { border: "1px solid red"}
-											: { border: "" }
+											: { border: " " }
 									}
 									name="prenom"
 									type="text"

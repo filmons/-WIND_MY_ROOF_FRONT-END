@@ -14,11 +14,13 @@ import Admine from "./pages/Admin";
 import Client from "./pages/client";
 import page_not_found from "./components/page_not_found";
 
+
+
 function PrivateRoute(props) {
 	if (localStorage.getItem("token")) {
 		return <Route exact path={props.path} component={props.component} />;
 	} else {
-		return <Route render={() => <Redirect to="/login" />}/>;
+		return <Route render={() => <Redirect to="/login"/>}/>;
 	}
 }
 
