@@ -12,7 +12,8 @@
 
 ## 📖 Description
 
-Wind my roof is a **full stack** project made with React it consist of...
+Wind my roof is a **full stack** project made with React it consist of signup and login with different roles like Admin and User
+
 
 #### 🔬 Technologies
 
