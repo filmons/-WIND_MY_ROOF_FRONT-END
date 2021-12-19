@@ -1,6 +1,6 @@
 # 🚀 Wind my roof
 
-<img src="./assets/image/wmr.png" alt="project logo"/>
+<img src="./src/assets/image/wmr.png" alt="project logo"/>
 
 ### Table of Contents
 
@@ -48,7 +48,7 @@ Wind my roof is a **full stack** project made with React it consist of signup an
 
 ## Contributors
 
--<spam>Filmon Saere</spam> [<img alt="githb link" width="30px" src="./assets/image/Octocat.jpg"/>][github]
+-<spam>Filmon Saere</spam> [<img alt="githb link" width="30px" src="./src/assets/image/Octocat.jpg"/>][github]
 
 <br />
 <br />
